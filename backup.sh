@@ -7,7 +7,7 @@ if [ -z "$1" ]; then
 fi
 
 log_file="$1"
-backup_file="/root/backup.tar.gz"
+backup_file="/root"
 
 # Check if the log file exists
 if [ ! -f "$log_file" ]; then
@@ -23,27 +23,4 @@ mkdir -p "$backup_dir"
 tar -czvf "$backup_file" "$log_file"
 
 echo "Log file backed up successfully to $backup_file"
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
 
